@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\InsuranceServer\\app.js"
+        },
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "Debug app.js",
+        //     "program": "${workspaceFolder}\\InsuranceServer/app.js",
+        //     "stopOnEntry": false,
+        //     "args": [],
+        //     "cwd": "${workspaceFolder}\\InsuranceServer",
+        //     "preLaunchTask": null,
+        //     "runtimeExecutable": null,
+        //     "runtimeArgs": ["--nolazy", "--inspect-brk=9229"],
+        //     "env": {
+        //       "NODE_ENV": "development"
+        //     },
+        //     "sourceMaps": false,
+        //     "outFiles": [],
+        //     "externalConsole": false,
+        //     "serverReadyAction": {
+        //       "action": "openExternally",
+        //       "pattern": "\\bExpress\\ server\\ listening\\ on\\ http://localhost:(\\d+)\\b",
+        //       "uriFormat": "http://localhost:%s",
+        //       "actionRetry": 50,
+        //       "delay": 3000
+        //     },
+        //     "internalConsoleOptions": "neverOpen"
+        //   }
+    ]
+}
